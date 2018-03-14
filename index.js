@@ -4,7 +4,7 @@ const request = require('request');
 const app = express();
 const API_URL = 'https://fragdenstaat.de';
 
-app.use('/api', function(req, res) {
+app.use('/', function(req, res) {
   console.log(req);
   console.log(req.headers);
   var url = API_URL + req.url;
