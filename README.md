@@ -1,2 +1,2 @@
-# simple-node-proxy
-A simple node proxy to debug API calls
+# fds-proxy
+Proxy for <https://FragDenStaat.de>
